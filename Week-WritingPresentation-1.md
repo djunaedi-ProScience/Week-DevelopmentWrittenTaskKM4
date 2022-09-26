@@ -400,9 +400,14 @@ DISPLAY "ODD!"
 Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
 
 ## Javascript Dasar
-### JavaScript Introduction
+
+
+### JavaScript Introduction     
+
 __Javascript__ merupakan bahasa pemrograman yang digunakan untuk membuat suatu website menjadi interaktif
 Cara menjalankan javascript adalah melalui berbagai browser. Namun mozilla dan google chrome merupakan browser yang paling umum digunakan.
+
+
 ---
 Pada Javascript dikenal dengan istilah Syntax dan Statement
 Syntax adalah sesuatu yang dapat diibaratkan sebagai kamus dan berperan dalam mengatur tata cara dalam bahasa pemrograman. Syntax digunakan untuk membuat statement program, instruksi untuk dijalankan atau dieksekusi oleh web browser dan compiler.
@@ -449,32 +454,32 @@ __Operator__
 
 __Mathematical Assignment Operator__
 >contohnya :
-  let x = 10 ; 
-  x *= 2 ; 
-  console.log(x) // Output: 20
-Increment dan Decrement digunakan untuk menambah atau mengurangi sebesar 1 nilai
-contohnya :
-let a = 10;
-a++
-  console.log(a) // output: 11
-Arithmetic Operator digunakan apabila melibatkan operasi matematika
-Pertambahan (+)
-Pengurangan (-)
-Perkalian (*)
-Pembagian (/)
-Modulus (%)
+>  let x = 10 ; 
+>  x *= 2 ; 
+>  console.log(x) // Output: 20
+>Increment dan Decrement digunakan untuk menambah atau mengurangi sebesar 1 nilai
+>contohnya :
+>let a = 10;
+>a++
+>  console.log(a) // output: 11
+>Arithmetic Operator digunakan apabila melibatkan operasi matematika
+>Pertambahan (+)
+>Pengurangan (-)
+>Perkalian (*)
+>Pembagian (/)
+>Modulus (%)
 
 __Comparism Operator digunakan untuk membandingkan suatu nilai__
 >Lebih Besar (>)
-Lebih Kecil (<)
-Lebih kecil atau samadengan (<=)
-Lebih besar atau samadengan (>=)
-Samadengan (===)
-Tidak Sama dengan (!==)
-Logical Operator digunakan untuk sebuah kondisi
-AND operator (&&)
-OR operator (||)
-NOT operator (!)
+>Lebih Kecil (<)
+>Lebih kecil atau samadengan (<=)
+>Lebih besar atau samadengan (>=)
+>Samadengan (===)
+>Tidak Sama dengan (!==)
+>Logical Operator digunakan untuk sebuah kondisi
+>AND operator (&&)
+>OR operator (||)
+>NOT operator (!)
 
 # ___TerimaKasih___
 
