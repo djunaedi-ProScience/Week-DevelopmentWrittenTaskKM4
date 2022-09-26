@@ -136,6 +136,271 @@ Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan 
 
 >CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet agar terlihat lebih cantik/menarik. CSS adalah singkatan dari Cascading Style Sheets. Kita ibaratkan HTML adalah kerangka yang memberi sturuktur pada website, maka CSS adalah baju yang memberi warna dan layout pada website.
 
+### Inline CSS
+Ada 3 cara untuk menyisipkan CSS ke dalam HTML, yaitu:
+
+ 1 Inline CSS, yaitu menggunakan attribute style untuk menyisipkan kode CSS langsung di dalam HTML element.
+
+2 Internal CSS, yaitu menggunakan element <style> untuk menyisipkan kode CSS. Element </style>          tersebut diletakkan di dalam element .   
+
+3 External CSS, yaitu sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan   element <link>.
+
+__cara menyisipkan CSS ke dalam HTML__
+`inline`
+```sh
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Website Pertamaku
+    </title>
+  </head>
+  <body>
+    <h1 style="color:blue;">Selamat Datang</h1>
+  </body>
+</html>
+```
+
+__internal__
+```sh
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Pertamaku</title>
+    <style>
+      body {
+        background-color: yellow;
+      }
+      h1 {
+        color: blue;
+      }
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Website Pertamaku</h1>
+    <p>Selamat Datang</p>
+  </body>
+</html>
+```
+
+eksternal
+
+```sh
+<!-- File index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Pertamaku</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Website Pertamaku</h1>
+    <p>Selamat Datang</p>
+  </body>
+</html>
+/* File styles.css */
+body {
+  background-color: pink;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: black;
+}
+```
+
+__menyisipkan eksternal__
+> <head>
+    <title>Website Pertamaku</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  
+### CSS Syntax
+
+CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+
+Syntaxnya seperti ini:
+
+>selector {
+  property: value;
+}
+
+Pseudo Class
+Syntax saat menggunakan pseudo-class adalah sebagai berikut:
+
+>selector:pseudo-class {
+  property: nilai;
+}
+
+### Flexbox
+adalah cara untuk **mengatur layout**
+
+Flexbox memiliki 1 parent/container dan bisa beberapa child/item
+>.container {
+  display: flex; /* or inline-flex */
+}
+
+>.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+>.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+>.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+Properties for the Children
+>.item {
+  order: 5; /* default is 0 */
+}
+
+>.item {
+  flex-shrink: 3; /* default 1 */
+}
+
+>.item {
+  flex-grow: 4; /* default 0 */
+}
+
+>.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+## __Algoritma__
+
+Algortima Adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Untuk menyelesaikan suatu masalah, tentunya kita harus mempunyai data struktur, nah data inilah yang akan kita gunakan untuk menyelesaikan suatu masalah dengan menggunakan algoritma.
+ 
+
+__Mengapa kita memerlukan algoritma?__
+
+- Manfaat algoritma antara lain:
+
+    Membantu menyederhanakan suatu program yang rumit dan juga besar.
+Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
+ 
+
+### Kualitas Algortima
+
+- __Kualitas wajib dari algoritma__
+
+    Input dan output harus didefinisikan terlebih dahulu dengan tepat
+Setiap step harus benar-benar clear dan tidak ambigu
+Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu.
+Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
+ 
+
+### Penggunaan Algortima
+
+#### __Soal__
+
+Buatlah Algoritma untuk menyelesaikan problem ini
+David memiliki program yang membutuhkan untuk convert data dari jumlah jam ke detik
+
+Contohnya jika program memiliki input 2 jam maka output yang diharapkan adalah 7200 detik
+
+Jawaban
+```sh
+Mulai
+Deklarasi variabel n, hasil_convert
+Menambahkan nilai n
+Melakukan proses (n jam = n \* 3600" lalu disimpan ke dalam hasil_convert
+Menampilkan hasil convert (n jam) = + "detik"
+Stop
+```
+
+### __Pseudocode__
+
+Pseudocode adalah menuliskan algoritma sebelum kita implementasikan ke bahasa pemograman tertentu.
+ 
+
+Bagaimana menulis pseudocode
+```sh
+Menggunakan HURUF BESAR pada kata kunci (key commands).
+CONTOH: IF number is > 10 THEN …
+
+1 statement = 1 baris
+
+Gunakan indentasi
+
+Simpel
+
+Contoh :
+
+STORE "width" with any number
+STORE "height" with any nummber
+STORE "area" without any value
+
+CALCULATE "width" times "height"
+SET "area" value with calculation result
+DISPLAY "area"
+``` 
+
+Pseudocode berdasarkan kondisi masalah
+
+### **Procedural**
+
+Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
+
+Contoh :
+```sh
+STORE "width" with any number
+STORE "height" with any nummber
+STORE "area" without any value
+
+CALCULATE "width" times "height"
+SET "area" value with calculation result
+DISPLAY "area"
+``` 
+
+### Conditional
+
+Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi.
+
+Jika hari ini tidak hujan, maka Bob pergi ke pasar,
+
+jika tidak maka Bob dirumah aja.
+```sh
+IF "bright"
+DO "go to the market"
+ELSE
+DO "stay at home"
+``` 
+
+### Looping
+
+Komputer dapat melakukan sebuah proses yang sama berulang-ulang.
+
+Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan Looping.
+
+Contoh :
+```sh
+STORE "count" t0 1
+
+WHILE "count" < 11
+DISPLAY "count"
+CALCULATE "count" mod 2
+STORE "reminder" value with calculation result
+IF "reminder" equals to 0
+DISPLAY "EVEN!"
+ELSE
+DISPLAY "ODD!"
+``` 
+
+### Recursive
+
+Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
+
+
+
 
 
 
