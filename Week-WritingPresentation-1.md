@@ -92,7 +92,51 @@ git push [alias] [branch]
 
 ```
 
-## HTML
+## HTML 
+
+### Apa itu Html
+>Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten
+
+### Membuat HTML
+```sh
+<html>
+<head>
+<title>
+    Judul Website
+  </title>
+<body>
+    saya sedang belajar pemrograman HTML dasar.
+  </body>
+</html>
+```
+
+### Menyiapkan Tools Pendukung
+![ini gambar](https://github.com/djunaedi-ProScience/Week-DevelopmentWrittenTaskKM4/blob/main/imgWeekPresentation/LiveServer.png?raw=true)
+
+### Membuat tag html sederhana
+
+```sh
+<ul>
+  Dafunda
+  <li>Dafunda Tekno</li>
+  <li>Dafunda Otaku</li>
+  <li>Dafunda Games</li>
+</ul>
+```
+
+__Tampilkan Ke Live Server__
+![liveServer](https://github.com/djunaedi-ProScience/Week-DevelopmentWrittenTaskKM4/blob/main/imgWeekPresentation/golive.png?raw=true)
+
+### Deploy HTML
+
+Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify
+
+## CSS
+-__Definisi CSS__
+
+>CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet agar terlihat lebih cantik/menarik. CSS adalah singkatan dari Cascading Style Sheets. Kita ibaratkan HTML adalah kerangka yang memberi sturuktur pada website, maka CSS adalah baju yang memberi warna dan layout pada website.
+
+
 
 
 
