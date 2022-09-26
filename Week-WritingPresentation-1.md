@@ -399,9 +399,84 @@ DISPLAY "ODD!"
 
 Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
 
+## Javascript Dasar
+### JavaScript Introduction
+__Javascript__ merupakan bahasa pemrograman yang digunakan untuk membuat suatu website menjadi interaktif
+Cara menjalankan javascript adalah melalui berbagai browser. Namun mozilla dan google chrome merupakan browser yang paling umum digunakan.
+---
+Pada Javascript dikenal dengan istilah Syntax dan Statement
+Syntax adalah sesuatu yang dapat diibaratkan sebagai kamus dan berperan dalam mengatur tata cara dalam bahasa pemrograman. Syntax digunakan untuk membuat statement program, instruksi untuk dijalankan atau dieksekusi oleh web browser dan compiler.
+```sh
+### Contoh Syntax Java Script
+Alert
+Prompt
+confirm
+Console Log adalah tempat untuk melakukan pengecekan logic pemrograman serta pemeriksaaan apakah terdapat error atau tidak pada pemrograman.
+```
+```sh
+Comments
+Single Comments: //
+Multiline Comments: /* */
+```
+### Tipe Data
 
+__Ada 6 macam tipe data fundamaental pada javascript yaitu :__
+1 Number : tipe data yang mengandung semua jenis angka.
+2 Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan 3 3 float (terdiri dari bilangan desimal)
+4 String : tipe data yang terdiri dari huruf, angka, spasi maupun simbol
 
+__Tipe data string ada 2 macam yaitu char dan__
+1 Boolean : tipe data yang memiliki nilai true or false
+2 Null : tipe data pada sebuah data/variabel yang tidak memiliki nilai
+3 Undefined : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai
+4 Object : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata
 
+**Variabel merupakan wadah atau tempat untuk menyimpan sebuah nilai 3 hal yang dapat dilakukan pada variabel:**
+1 variabel harus dibuat dengan nama yang jelas dan menggabarkan tentang data tersebut
+2 variabel dapat menimpan dan mengupdate informasi data yang disimpan
+3 variabel digunakan untuk menampilkan atau mendapatkan data yang tersimpan
+__Ada 3 cara untuk mendefinisikan variabel yaitu :__
+1 var
+2 let
+3 const
+
+__Aturan Penamaan variabel yaitu :__
+Harus mendeskripsikan dengan jelas tentang data yang disimpan
+Tidak bisa menggunakan angka diawal variabel
+Menggunakan camelcase untuk nama variabel yg lebih dari 1 kata
+__Operator__
+>Assignment Operator (=) digunakan untuk menyimpan sebuah nilai pada variabel contohnya : let myName = 'Chaca'
+
+__Mathematical Assignment Operator__
+>contohnya :
+  let x = 10 ; 
+  x *= 2 ; 
+  console.log(x) // Output: 20
+Increment dan Decrement digunakan untuk menambah atau mengurangi sebesar 1 nilai
+contohnya :
+let a = 10;
+a++
+  console.log(a) // output: 11
+Arithmetic Operator digunakan apabila melibatkan operasi matematika
+Pertambahan (+)
+Pengurangan (-)
+Perkalian (*)
+Pembagian (/)
+Modulus (%)
+
+__Comparism Operator digunakan untuk membandingkan suatu nilai__
+>Lebih Besar (>)
+Lebih Kecil (<)
+Lebih kecil atau samadengan (<=)
+Lebih besar atau samadengan (>=)
+Samadengan (===)
+Tidak Sama dengan (!==)
+Logical Operator digunakan untuk sebuah kondisi
+AND operator (&&)
+OR operator (||)
+NOT operator (!)
+
+# ___TerimaKasih___
 
 
 
