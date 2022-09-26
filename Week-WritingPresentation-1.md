@@ -453,6 +453,7 @@ __Operator__
 >Assignment Operator (=) digunakan untuk menyimpan sebuah nilai pada variabel contohnya : let myName = 'Chaca'
 
 __Mathematical Assignment Operator__
+```sh
 >contohnya :
 >  let x = 10 ; 
 >  x *= 2 ; 
@@ -468,8 +469,9 @@ __Mathematical Assignment Operator__
 >Perkalian (*)
 >Pembagian (/)
 >Modulus (%)
-
+```
 __Comparism Operator digunakan untuk membandingkan suatu nilai__
+```sh
 >Lebih Besar (>)
 >Lebih Kecil (<)
 >Lebih kecil atau samadengan (<=)
@@ -480,7 +482,7 @@ __Comparism Operator digunakan untuk membandingkan suatu nilai__
 >AND operator (&&)
 >OR operator (||)
 >NOT operator (!)
-
+```
 # ___TerimaKasih___
 
 
