@@ -483,6 +483,32 @@ __Comparism Operator digunakan untuk membandingkan suatu nilai__
 >OR operator (||)
 >NOT operator (!)
 ```
+
+### Javascript Conditions
+#### __syntax__
+```sh
+if (condition){
+    logic
+}
+
+condition 2
+
+if (condition){
+    
+} else{
+    
+}
+
+condition 3
+
+if (condition){
+    
+} else if (){
+    
+}else{
+    
+}
+```
 # ___TerimaKasih___
 
 
