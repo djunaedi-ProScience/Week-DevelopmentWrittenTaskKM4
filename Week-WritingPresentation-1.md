@@ -1,4 +1,6 @@
 # Week Presentation 1
+
+# Link Video : https://drive.google.com/file/d/1hhdQzpMRM2omm8MKzpBYjqmwba_aZZ5A/view?usp=sharing
 ---
 
 ## Unix Command Line
