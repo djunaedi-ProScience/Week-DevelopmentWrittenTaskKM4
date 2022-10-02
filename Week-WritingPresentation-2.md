@@ -1,4 +1,7 @@
 ## Javascript Dasar
+
+#Rekaman Week2 : https://drive.google.com/drive/folders/1mCQGHpYbrbhGgf-mfNAp5AJqHB7AcNPz?usp=sharing
+
 ### Loop        
 Loop dalam Bahasa Indonesia artinya putaran. Dalam JavaScript,
 
