@@ -156,3 +156,158 @@ inventory.forEach((baris) => {
 });
 
 ```
+
+# Object
+object adalah sebuah tipe data pada variabel yang menyimpan properti dan fungsi (method)
+
+- Properti adalah data lengkap dari sebuah object.
+- Method adalah action dari sebuah object. Apa saja yang dapat dilakukan dari suatu object.
+
+
+## Assign Object
+```
+let hewan = {
+  nama: "kucing",
+  kaki: 4,
+  warna: "putih",
+};
+```
+
+**Memanggil Object**
+ada dua cara bisa menggunakan [] atau mengunakan titik (.)
+```
+hewan.nama = "kelinci";
+hewan["kaki"] = 2;
+// memanggil nama objek dengan variable
+let properti = "umur";
+console.log(siswa[properti]);
+
+// Mengakses Object key atau value
+console.log(Object.keys(siswa));
+console.log(Object.values(siswa));
+```
+
+**Menghapus Object**
+```
+delete hewan.warna;
+```
+
+**Memanggil Method**
+```
+const greeting = {
+  welcome: function () {
+    return "halo selamat datang";
+  },
+  afterPay: function () {
+    return "Terimakasih sudah membeli produk kami";
+  },
+};
+
+// Panggil method dalam object
+console.log(greeting.welcome());
+console.log(greeting.afterPay());
+
+```
+
+**Nested Object**
+```
+let buku = {
+  judul: "tips jago javascript",
+  tahun: 2022,
+  penulis: {
+    penulis1: {
+      nama: "Reyhan",
+      umur: 28,
+      kota: "jakarta",
+    },
+    penulis2: {
+      nama: "aby",
+      umur: 25,
+      kota: "bandung",
+    },
+  },
+};
+
+// cara mengakses nested object
+
+console.log(buku);
+console.log(buku.penulis.penulis1.nama);
+console.log(buku.penulis.penulis2.umur);
+```
+
+**Iteration Object dan nested object**
+```
+// for in
+let siswa = {
+  nama: "Reyhan",
+  umur: 22,
+  asal: "jakarta",
+  hobi: "membaca",
+};
+
+console.log(siswa);
+
+//iteration menggunakan for in
+for (let key in siswa) {
+  console.log(siswa[key]);
+  //   console.log(key);
+  //siswa[key] -> siswa['nama'] -> siswa['umur'] -> siswa['asal']
+}
+
+let buku = {
+  judul: "tips jago javascript",
+  tahun: 2022,
+  penulis: {
+    penulis1: {
+      nama: "Reyhan",
+      umur: 28,
+      kota: "jakarta",
+    },
+    penulis2: {
+      nama: "aby",
+      umur: 25,
+      kota: "bandung",
+    },
+  },
+};
+
+// iteration nested
+console.log(buku);
+for (let key in buku.penulis.penulis1) {
+  console.log(buku.penulis.penulis1[key], "----ini dari nested");
+}
+```
+
+** Array Object**
+```
+let users = [
+  {
+    nama: "dila",
+    umur: 17,
+    alamat: "bandung",
+  },
+
+  {
+    nama: "audzan",
+    umur: 18,
+    alamat: "jakarta",
+  },
+  {
+    nama: "dolton",
+    umur: 16,
+    alamat: "sulawesi",
+  },
+];
+
+console.log(users);
+
+// perulangan / iteration. menambahkan properties status dengan value aktif
+let data = users.map((el) => {
+  // console.log(el.nama);
+  el.status = "aktif";
+  return el;
+});
+
+```
+
+
