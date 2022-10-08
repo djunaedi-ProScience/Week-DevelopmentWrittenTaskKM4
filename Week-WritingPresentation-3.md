@@ -310,4 +310,125 @@ let data = users.map((el) => {
 
 ```
 
+# Rekursive
+Recursive adalah function yang memanggil dirinya sendiri sampai kondisi tertentu
+**Penggunaan**
+Recursive kebanyakan digunakan untuk case matematika, fisika, kimia, dan yang berhubungan dengan calculation
+
+## Contoh Rekursive menghitung pangkat
+```
+function pow(x,n){
+    if (n == 1) {
+        return x
+    } else {return x * pow(x,n - 1)
+ }
+}
+console.log(pow(2,3));
+```
+
+## Asynchronous & Promises
+**Asynchronous**
+Asynchronous sebuah teknik yang menyelesaikan fungsi secara paralel
+Penggunaan asynchronous dapat dilakukan jika kita ingin mengambil data dari database
+Mengapa perlu menggunakan asynchronous? Asynchronous dibutuhkan ketika ada proses yangg membutuhkan waktu lama. Jadi kita bisa mengerjakan proses yg lain secara paralel.
+
+**Callbacks** adalah suatu function namun cara pengeksekusiannya yang berbeda yaitu hanya mengeksekusi pada point tertentu.
+
+Salah satu function yang digunakan untuk mengatur penjadwalan asynchronous adalah setTimeout function
+contoh penggunaan asynchronous
+
+**Contoh Calback**
+```
+// ========================= CALLBACK =====================
+console.log("CALLBACK")
+console.log("A")
+
+// butuh proses yg memakan waktu
+// callback -> function yg dijadikan sbg argumen
+setTimeout(() => {
+  console.log("B")
+}, 1000)
+
+console.log("C")
+```
+
+## Membuat Promises
+Mendefiniskan Promises
+```
+// ======================== PROMISES =====================
+console.log("PROMISES")
+// pembuatan promise.............
+let nontonPromise = new Promise((resolve, reject) => {
+  if (true) {
+    resolve("nonton terpenuhi") // berhasil
+  } 
+
+  reject("gagal"); // gagal
+});
+
+// eksekusi proses..............
+console.log("A");
+
+```
+
+## Memanggil promises
+```
+nontonPromise
+  .then((result) => {
+    console.log(result);
+    return `${result} bareng doi`
+  })
+  .then((result) => {
+    console.log(result)
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+console.log("C");
+```
+
+## Promises tapi dalam function
+```
+// ================== promise dari function =============
+console.log("PROMISES dari function")
+let nonton = (kondisi) => {
+  return new Promise((resolve, reject) => {
+    if (kondisi == "jalan") {
+      resolve("nonton terpenuhi")
+    }
+    reject("batal nonton")
+  })
+}
+
+nonton("jalan")
+.then(result => {
+  console.log(result)
+})
+.catch(err => {
+  console.log(err);
+})
+```
+
+
+
+## Web Storage
+Web Storage adalah wadah untuk sebuah data yang digunakan untuk penyimpanan data yang terikat di browsernya
+Jenis Web Storage yang umum digunakan yaitu :
+- Local Storage
+- Session storage
+- IndexDB
+- Cookies
+```
+Cara menyimpan data pada local storage
+    let token = "asdfghjkl" //key
+    localStorage.setItem("token", token);
+Cara mengambil token
+    localstorage.getItem("token", token);
+    console.log(localStorage.getItem('token");
+Cara menghapus data
+    localStorage.removeItem("token");
+ ```
+
+
 
