@@ -86,3 +86,22 @@ Stylesheet CSS
    font-family: Arial;
    text-align: center;
 ```
+
+## React Form
+contoh codingan Form di React
+```
+<form action="" onSubmit={handleSubmit}>
+        <label htmlFor="name">Name</label>
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+        <label htmlFor="address">Address</label>
+        <input type="text" value={address} onChange={(e) => setAddress(e.target.value)} />
+        <label htmlFor="option">Program</label>
+        <select value={program} onChange={(e) => setProgram(e.target.value)}>
+          <option value="">select program</option>
+          <option value="KM">KM</option>
+          <option value="SIC">SIC</option>
+          <option value="Amman">Amman</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+```
