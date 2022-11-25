@@ -180,4 +180,86 @@ contoh penggunaan grid system
 .col-xs digunakan untuk mengatur monitor pada handphone
 
 
+# Git & Github Advanced
+## Branch
+Branch adalah sebuah cabang dari repository. Branch digunakan untuk mengembangkan fitur baru tanpa mengganggu branch utama. Branch juga digunakan untuk mengembangkan fitur baru secara bersamaan. Branch juga digunakan untuk mengembangkan fitur baru secara bersamaan.
+
+## Merge
+Merge adalah sebuah proses untuk menggabungkan branch yang berbeda. Merge hanya dapat dilakukan jika branch yang akan digabungkan memiliki parent. Merge hanya dapat dilakukan jika branch yang akan digabungkan memiliki parent.
+
+## Merge Conflict
+Merge conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda
+
+## Rebase
+Rebase adalah sebuah proses untuk menggabungkan branch yang berbeda.
+
+## Rebase Conflict
+Rebase conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Pull Request
+Pull request adalah sebuah proses untuk menggabungkan branch yang berbeda. Pull request hanya dapat dilakukan jika branch yang akan digabungkan memiliki parent. 
+
+## Pull Request Conflict
+Pull request conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Fork
+Fork adalah sebuah proses untuk menggabungkan branch yang berbeda. 
+
+## Fork Conflict
+Fork conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Clone
+Clone adalah sebuah proses untuk menggabungkan branch yang berbeda.
+
+## Clone Conflict
+Clone conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda. 
+
+## Remote
+Remote adalah sebuah proses untuk menggabungkan branch yang berbeda
+
+## Remote Conflict
+Remote conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda. 
+
+## Push
+Push adalah sebuah proses untuk menggabungkan branch yang berbeda. 
+
+## Push Conflict
+Push conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Pull
+Pull adalah sebuah proses untuk menggabungkan branch yang berbeda.
+
+## Pull Conflict
+Pull conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda..
+
+## Fetch
+Fetch adalah sebuah proses untuk menggabungkan branch yang berbeda. 
+
+## Fetch Conflict
+Fetch conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Checkout
+Checkout adalah sebuah proses untuk menggabungkan branch yang berbeda. Checkout tidak memiliki parent.
+
+## Checkout Conflict
+Checkout conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Reset
+Reset adalah sebuah proses untuk menggabungkan branch yang berbeda.
+
+## Reset Conflict
+Reset conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda.
+
+## Revert
+Revert adalah sebuah proses untuk menggabungkan branch yang berbeda. 
+
+## Revert Conflict
+Revert conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda. 
+
+## Squash
+Squash adalah sebuah proses untuk menggabungkan branch yang berbeda. 
+
+## Squash Conflict
+Squash conflict adalah sebuah kondisi dimana branch yang akan digabungkan memiliki parent yang berbeda
+
 
